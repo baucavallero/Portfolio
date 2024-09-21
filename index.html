@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="fondo">
+    <header>
+        <nav>
+            <ul>
+                <li class="caja"><a href="#about">Acerca de mi</a></li>
+                <li class="caja"><a href="#skills">Habilidades</a></li>
+                <li class="caja"><a href="#projects">Mis proyectos</a></li>
+                <li class="caja"><a href="#contact">Contactame</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h1 class="title"> < Bautista Cavallero - Desarrollador De Software > </h1>
+    </div>
+    <section class="containerme">
+        <img class="meimg" src="https://th.bing.com/th/id/R.703de03d3eadd7a8366f45e11ac68bc9?rik=6OXnNBzVr7KjKA&riu=http%3a%2f%2fwww.luisdev.com.br%2fwp-content%2fuploads%2f2021%2f03%2fDesktop-1.png&ehk=UBcKTdxPx9ywVG45zYmYUWfe4tvJJmXYPn3nvfb4LTY%3d&risl=&pid=ImgRaw&r=0" alt="">
+    </section>
+    
+    <section class="containerabout" id="about">
+        <img class="aboutimg" src="https://www.clio.com/wp-content/uploads/2020/08/caspar-camille-rubin-fPkvU7RDmCo-unsplash-750x500.jpg" alt="">
+        <div class="aboutinfo">
+            <div class="abouttitle"><h2>Acerca de mi</h2></div>
+            <div class="abouttext"><p>Mi nombre es Bautista Cavallero. Tengo 22 años y soy estudiante de la Tecnicatura en Programación en la UTN (Universidad Tecnológica Nacional). <br> Soy amante de la programación y de las nuevas tecnologías. Siempre estoy en una búsqueda constante de desafíos que me permitan crecer como profesional.</p></div>
+        </div>
+        <img class="Photo" id="imagenPrincipal" src="https://i.imgur.com/MYqEXWA.jpeg" alt="">
+    </section>
+    
+    
+    <section id="skills">
+        <h1 class="hardskillstitle">Habilidades Sólidas</h1>
+        <div class="containerskills">
+        <ul class="hardskills">
+            <li><img class="csharp" src="https://www.freeiconspng.com/uploads/c-logo-icon-18.png" alt=""></li>
+            <li><img class="netframework" src="https://logos-world.net/wp-content/uploads/2022/01/NET-Framework-Symbol.png" alt="""></li>
+            <li><img class="cplusplus" src="https://clipart-library.com/image_gallery2/C-PNG-Clipart.png" alt=""></li>
+            <li><img class="sqlserver" src="https://logodix.com/logo/542147.png" alt=""></li>
+        </ul>
+        <h2 class="softskillstitle">Habilidades Blandas</h2>
+        <ul class="softskills">
+            <li><img class="html5" src="https://clipartcraft.com/images/html5-logo-jpeg.png" alt=""></li>
+            <li><img class="css" src="https://logospng.org/download/css-3/logo-css-3-2048.png" alt=""></li>
+            <li><img class="javascript" src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Emblem.png" alt=""></li>
+        </ul>
+    </div>
+    </section>
+    
+    <section class="containerprojects" id="projects">
+        <h2 class="tituloproyectos">Mis Proyectos</h2>
+        <div class="divprojects">
+        <div class="project">
+            <h3>Proyecto 1</h3>
+            <img class="proyectouno" src="https://factura.city/Dinamic/Assets/Images/stock-avanzado.svg" alt="">
+            <p class="proyectounop">Un proyecto de Consola de Gestión de Stock para una empresa de productos de Hardware. Diseñado en C++ para la universidad.</p>
+            <a href="https://github.com/baucavallero"><img class="githubproyectouno" src="https://i.imgur.com/tmrjMnk.png" alt=""></a>
+        </div>
+        <div class="project">
+            <h3>Proyecto 2</h3>
+            <img class="proyectodos" src="https://cdn-icons-png.flaticon.com/512/7022/7022999.png" alt="">
+            <p class="proyectodosp">Un proyecto WinForm de Gestión de Articulos para un comercio de tecnología. Diseñado con C# para la universidad.</p>
+            <a href="https://github.com/zanottoh/tp-winform-equipo-18A"><img class="githubproyectodos" src="https://i.imgur.com/giE0Gew.png" alt=""></a>
+        </div>
+    </div>
+    </section>
+
+    <section class="containercontact" id="contact">
+        <h2 class="emailtitulo">¡Ponete en contacto!</h2>
+        <div class="contactomail">
+            <form action="https://formsubmit.co/baucavallero@gmail.com" method="POST">
+                <label for="name">Nombre y apellido:</label><br>
+                <input type="text" id="name" name="name" placeholder="" required><br>
+        
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="" required><br>
+        
+                <label for="phone">Teléfono:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="" required><br>
+        
+                <label for="message">Dejame tu mensaje: </label><br>
+                <textarea id="message" name="message" placeholder=""></textarea><br>
+        
+                <input type="hidden" name="_subject" value="Nuevo mensaje de tu portfolio">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://baucavallero.github.io/Portfolio/recieved.html">
+        
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+    <div class="cajacontacto">
+        <ul class="contactme">
+            <li><a href="https://www.linkedin.com/in/bautista-cavallero-146724233/"><img class="linkedin" src="https://static.vecteezy.com/system/resources/previews/023/986/568/original/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png" alt=""></a></li>
+            <li><a href="https://github.com/baucavallero"><img class="github" src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com/bau_cavallero/"><img class="instagram" src="https://static.vecteezy.com/system/resources/previews/023/986/514/original/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png" alt=""></a></li>
+            <li><a href="mailto:baucavallero@gmail.com"><img class="email" src="https://static.vecteezy.com/system/resources/previews/016/716/465/original/gmail-icon-free-png.png" alt=""></a></li>
+        </ul>
+    </div>
+    </section>
+    
+    <footer>
+        <p>&copy; Página realizada por Bautista Cavallero, 2024</p>
+    </footer>
+</div>
+</body>
+</html>
